@@ -1,4 +1,7 @@
-
+/**
+ * 试验async和await以及Promise.all的用法
+ * @return {[type]} [description]
+ */
 async function fa(){
     return new Promise(resolve=>{
         setTimeout(()=>{
