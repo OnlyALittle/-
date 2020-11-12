@@ -70,3 +70,9 @@ server {
 
 
 ```
+
+
+### docker
+```js
+docker run -d --name nginx -p 8080:80 -v /docker/nginx/logs:/var/log/nginx -v /docker/nginx/html:/usr/share/nginx/html -v /docker/nginx/conf.d:/etc/nginx/conf.d -v /docker/nginx/nginx.conf:/etc/nginx/nginx.conf nginx
+```
